@@ -11,10 +11,10 @@ html {
   position: relative;
   left: 50%;
   top: 50%;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.442);
   transform: translate(-50%, -50%);
-  height: 150px;
-  width: 150px;
+  height: 148px;
+  width: 148px;
   display: flex;
   flex-wrap: wrap;
 }
