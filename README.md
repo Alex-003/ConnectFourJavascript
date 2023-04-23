@@ -1,4 +1,4 @@
-# Tic-Tac-Toe
+# Connect 4
 
 This project is a Tic-Tac-Toe game built with HTML, CSS, and JavaScript.
 
