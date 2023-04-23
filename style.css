@@ -13,7 +13,7 @@ html {
   top: 50%;
   border: 1px solid rgba(255, 255, 255, 0.442);
   transform: translate(-50%, -50%);
-  height: 152px;
+  height: 150px;
   width: 152px;
   display: flex;
   flex-wrap: wrap;
