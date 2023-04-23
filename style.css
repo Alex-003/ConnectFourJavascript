@@ -1,0 +1,63 @@
+html {
+  background: linear-gradient(to right, #e8584e, #0075c2);
+}
+
+.wrapper {
+  display: grid;
+}
+
+/* Styling the grid */
+.grid {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  border: 1px solid white;
+  transform: translate(-50%, -50%);
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.inside {
+  background-color: #e4f1fa1f;
+  border: 1px solid rgba(223, 197, 197, 0.28);
+}
+
+/* Styling for game result message */
+#result {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #dfeaff;
+}
+
+/* Styling the h3 message */
+.current-message {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #dfeaff;
+}
+
+/* Styling for player tokens */
+.player-one {
+  background-color: #e8584e;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.player-two {
+  background-color: #0075c2;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
