@@ -12,16 +12,18 @@ html {
   left: 50%;
   top: 50%;
   border: 1px solid rgba(255, 255, 255, 0.442);
-  transform: translate(-50%, -50%);
-  height: 150px;
-  width: 152px;
+  transform: translate(-50%, -50%) scale(2.3);
+  height: 140px;
+  width: 140px;
   display: flex;
   flex-wrap: wrap;
+  margin: 4%;
 }
 
 .grid div {
   height: 20px;
   width: 20px;
+  box-sizing: border-box;
 }
 
 .inside {
